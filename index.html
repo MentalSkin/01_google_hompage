@@ -1,71 +1,52 @@
 <!DOCTYPE html>
-
-
 <html>
 <head>
-    <title>Fake Google</title>
+    <title>Google Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
 </head>
-
 <body>
+    <div class="google-header">
+        <div><img class="user-img" src="user-icon.png"></div>
+        <div class="icons">
+            <img src="th-solid.svg" width="20px">
+            <a href="#">Images</a>
+            <a href="#">Gmail</a>
+        </div>
+        <div class="icons-2">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+    </div>
+    <div class="google-search">
+        <div class="google-image text-center">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div class="input-group text-center">
+            <input type="text" placeholder="Search" class="form-control">
+        </div>
+    </div>
+    <div class="bookmaks">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="site"></div>
+        </div>
+        
 
-    <style>
-        .logo{
-            padding: 150px 0 0 0;
-        }
-        .container {
-            background-color: blue;
-            height: 46px;
-            width: 584px;
-            border-radius: 23px;
-            display: flex;
-            padding: 5px 8px 0 14px;
-        }
-        .search-box {
-            display: flex;
-            flex:auto;
-            margin-top: 3px;
-            align-self: center;
-            width: 487px;
-            height: 34px;
-        }
-        .search-icon {
-            background-color: blueviolet;
-            height: 24px;
-            width: 24px;
-            margin-top: 0px;
-            align-self: center;
-        }
-        .micro-icon {
-            background-color:coral;
-            height: 24px;
-            width: 24px;
-            margin-top: 0px;
-            align-self: center;
-        }
-        .search-type-button {
-            border-radius: 4px;
-            margin: 30px 8px 30px 8px;
-            width: 142px;
-            height: 36px;
-            font-size: 14px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
-    <div class="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
     </div>
-    
-    <div class="container">
-        <div class="search-icon"></div>
-        <div><input type="text" class="search-box"></div>
-        <div class="micro-icon"></div>
+    <div class="bottom">
+        <div class="bottom-left">
+            <a href="#">Advertisment</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+        <div class="bottom-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
     </div>
-    
-    <div>
-        <button class="search-type-button">Google Search</button>
-        <button class="search-type-button">I'm Feeling Lucky</button>
-    </div>
-
 </body>
 
 </html>
